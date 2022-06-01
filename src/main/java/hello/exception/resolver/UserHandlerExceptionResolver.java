@@ -36,7 +36,6 @@ public class UserHandlerExceptionResolver implements HandlerExceptionResolver {
                     return new ModelAndView();
                 } else {
                     // TEXT/HTML
-
                     return new ModelAndView("error/500");
                 }
             }
